@@ -1,0 +1,460 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Sen", sans-serif;
+  --second-family: "Bahnschrift", sans-serif;
+}
+
+header {
+  background: linear-gradient(to right, black 30%, #181823 20%);
+}
+
+.header-container {
+  width: inherit;
+  margin-left: 70px;
+  margin-right: 70px;
+  height: 88px;
+  line-height: 5.5em;
+}
+
+.container .logo {
+  margin-left: 70px;
+}
+
+.nav {
+  display: inline-block;
+  color: white;
+  margin-left: 1000px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item {
+  width: 132px;
+  height: 88px;
+  padding: 32px 24px;
+  display: inline;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav-item:hover {
+  background-color: black;
+  transition: all 2s ease;
+}
+
+.section-intro {
+  height: 814px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, black 30%, #181823 20%);
+}
+
+.intro-person {
+  background-image: url(images/Rectangle\ 37.png);
+  width: 750px;
+  height: 650px;
+  z-index: 1;
+  position: relative;
+}
+
+.intro-greeting {
+  height: 368px;
+  width: 738px;
+  z-index: 2;
+  position: absolute;
+  left: 34%;
+}
+
+.intro-greeting h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 78px;
+  color: white;
+}
+
+.intro-greeting h1 span {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.intro-greeting p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: white;
+}
+
+.companies {
+  background-color: black;
+  height: 715px;
+  border: 1px transparent;
+}
+
+.companies-anonce {
+  width: 690px;
+}
+
+.companies-anonce p {
+  display: inline-block;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: lightgrey;
+  margin-top: 120px;
+  margin-left: 70px;
+}
+
+.companies-anonce h2 {
+  margin-left: 70px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 55px;
+  color: white;
+}
+
+.cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.card-item {
+  width: 416px;
+  height: 247px;
+  display: inline-block;
+}
+
+.google-card h1 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 117px;
+  color: lightgrey;
+  display: inline-block;
+}
+
+.google-card h6 {
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.google-card h6 span {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  color: #3cc74e;
+}
+
+.google-card p {
+  margin-top: 22px;
+  width: 368px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: lightgrey;
+}
+
+.facebook-card h1 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 117px;
+  color: lightgrey;
+  display: inline-block;
+}
+
+.facebook-card h6 {
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.facebook-card h6 span {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  color: #609bff;
+}
+
+.facebook-card p {
+  margin-top: 22px;
+  width: 368px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: lightgrey;
+}
+
+.dribbble-card h1 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 117px;
+  color: lightgrey;
+  display: inline-block;
+}
+
+.dribbble-card h6 {
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.dribbble-card h6 span {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  color: #e95d90;
+}
+
+.dribbble-card p {
+  margin-top: 22px;
+  width: 368px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: lightgrey;
+}
+
+.philosophy-block {
+  display: flex;
+  height: 600px;
+  justify-content: space-between;
+}
+
+.philosophy-text {
+  margin-left: 70px;
+}
+
+.philosophy-text h3 {
+  margin-top: 100px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 55px;
+  color: #181823;
+}
+
+.philosophy-text p {
+  margin-top: 24px;
+  width: 576px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: darkgrey;
+}
+
+.philosophy-text a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #181823;
+  display: block;
+  margin-top: 130px;
+  width: 116px;
+  height: 28px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.philosophy-background {
+  width: 720px;
+  background-image: url(images/Rectangle\ 39.png);
+}
+
+.skillset {
+  height: 664px;
+  background-color: black;
+  padding-top: 100px;
+}
+
+.skillset-container {
+  margin-left: 70px;
+  margin-right: 70px;
+  min-height: 500px;
+  display: inline-flex;
+}
+
+.skills-card-container {
+  margin-left: 100px;
+  height: inherit;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillset-intro h2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 55px;
+  color: white;
+}
+.skillset-intro p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: lightgrey;
+  width: 370px;
+  margin-top: 24px;
+}
+
+.skill-card {
+  height: 176px;
+  width: 416px;
+  margin-left: 24px;
+  align-content: center;
+}
+
+.skill-card h2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: white;
+  margin-top: 24px;
+}
+
+.skill-card p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: lightgrey;
+  margin-top: 12px;
+}
+
+.partners {
+  background-color: black;
+  height: 140px;
+}
+
+.partners-container {
+  border: 1px solid #181823;
+  margin-left: 70px;
+  margin-right: 70px;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner-item {
+  width: 500px;
+  height: 140px;
+  border: 1px solid #181823;
+  align-content: center;
+  text-align: center;
+}
+
+.projects {
+  height: 2201px;
+  background-color: black;
+}
+
+.projects-container {
+  height: inherit;
+  margin-left: 70px;
+  margin-right: 70px;
+  border: 1px solid transparent;
+}
+.projects-container > span {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #8491a0;
+  margin-top: 100px;
+  display: block;
+}
+
+.projects-container h3 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 55px;
+  color: white;
+  width: 572px;
+}
+
+.project-item {
+  width: 636px;
+  background-color: #181823;
+  display: inline-block;
+  margin-left: 150px;
+}
+
+.project-item h6 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: white;
+  display: inline-block;
+}
+
+.project-item p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #8491a0;
+}
+
+.project-describe {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.first-project-card {
+  margin-top: 88px;
+}
+
+.second-project-card {
+  margin-left: 20px;
+  position: relative;
+  top: -220px;
+}
+
+.third-project-card {
+  margin-top: 20px;
+}
+
+.fouth-project-card {
+  margin-left: 20px;
+  position: relative;
+  top: -220px;
+}
+
+.projects-container a {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: white;
+  padding: 24px 32px;
+  width: 247px;
+  height: 75px;
+  border: #5221e6 1px solid;
+  position: relative;
+  right: 450px;
+  top: -50px;
+}
