@@ -14,7 +14,6 @@ header {
 }
 
 .header-container {
-  width: inherit;
   margin-left: 70px;
   margin-right: 70px;
   height: 88px;
@@ -59,7 +58,7 @@ a {
 }
 
 .intro-person {
-  background-image: url(images/Rectangle\ 37.png);
+  background-image: url(images/Rectangle37.png);
   width: 750px;
   height: 650px;
   z-index: 1;
@@ -457,4 +456,113 @@ a {
   position: relative;
   right: 450px;
   top: -50px;
+}
+
+@media (max-width: 1440px) {
+  .nav {
+    margin-left: 550px;
+  }
+  .skillset-intro p {
+    font-size: 16px;
+  }
+  .skill-card {
+    width: 350px;
+  }
+  .skill-card p {
+    font-size: 14px;
+  }
+  .skills-card-container {
+    margin-left: 0px;
+    width: 800px;
+  }
+  .philosophy-background {
+    width: 580px;
+  }
+  .projects-container h3 {
+    font-size: 40px;
+  }
+  .project-item img {
+    width: 400px;
+  }
+  .project-item {
+    width: 400px;
+  }
+  .projects-container a {
+    width: unset;
+    height: unset;
+    position: unset;
+    display: inline-block;
+    margin-left: 700px;
+    margin-top: -100px;
+  }
+  .projects {
+    height: unset;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    margin-left: 300px;
+  }
+  .intro-person {
+    background-image: url(images/37adapt.png);
+    width: 384px;
+  }
+  .intro-greeting h1 {
+    font-size: 50px;
+  }
+  .intro-greeting {
+    left: 29%;
+    width: 500px;
+  }
+  .companies-anonce h2 {
+    font-size: 45px;
+  }
+  .card-item {
+    width: 213px;
+  }
+  .google-card p,
+  .facebook-card p,
+  .dribbble-card p {
+    width: 213px;
+  }
+  .philosophy-text h3 {
+    font-size: 45px;
+  }
+  .philosophy-text p {
+    width: 500px;
+  }
+  .philosophy-background {
+    background: url(images/Rectangle\ 39.png);
+  }
+  .skillset-container {
+    display: block;
+  }
+  .skillset-intro p {
+    width: inherit;
+  }
+  .skills-card-container {
+    justify-content: space-around;
+    margin-top: 25px;
+  }
+  .projects-container h3 {
+    font-size: 45px;
+  }
+  .project-item img {
+    width: 350px;
+  }
+  .project-item {
+    width: 350px;
+    margin-left: 60px;
+  }
+  .second-project-card {
+    position: unset;
+  }
+  .fouth-project-card {
+    position: unset;
+  }
+  .projects-container a {
+    margin-top: 50px;
+    margin-left: 320px;
+  }
 }
